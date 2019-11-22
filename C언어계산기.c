@@ -8,20 +8,21 @@ int main( void ){
 	char a = 0;
  
 	printf( "수식을 입력하시오 : " );
-	scanf( "%f %c %f" );
+	scanf( "%d %c %d" ,&num1,&a,&num2);
  
-	switch(0){  
+	switch(a){  
 	case '+': 
 		value = num1 + num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );
+		break;
 	case '-':
 		value = num1 - num2;
-		printf( "%d %c %d = %d", num1, a, num2, value );
+		printf( "%d %c %d = %d", num1, a, num2, value );break;
 	case '*':  
 		value = num1 * num2;
-		printf( "%d %c %d = %d", num1, a, num2, value );
+		printf( "%d %c %d = %d", num1, a, num2, value );break;
 	case '/':  
-		printf( "%d/%d = %lf", num1, num2, (double)num1/num2 );
+		printf( "%d/%d = %lf", num1, num2, (double)num1/num2 );break;
 	default:
 		printf( "계산불가능" );
 	}
@@ -33,3 +34,6 @@ int main( void ){
 
 //학번: 20170000
 //이름: 홍길동
+
+//학번: 20181016
+//이름: 이유진
