@@ -8,22 +8,28 @@ int main( void ){
 	char a = 0;
  
 	printf( "수식을 입력하시오 : " );
-	scanf( "%f %c %f" );
+	scanf( "%d %c %d",&num1,&a,&num2);
  
-	switch(0){  
+	switch(a){  
 	case '+': 
 		value = num1 + num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );
+		break;
 	case '-':
 		value = num1 - num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );
+		break;
 	case '*':  
 		value = num1 * num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );
+		break;
 	case '/':  
 		printf( "%d/%d = %lf", num1, num2, (double)num1/num2 );
+	    break;
 	default:
 		printf( "계산불가능" );
+		break;
+
 	}
  
 	return 0;
@@ -31,5 +37,5 @@ int main( void ){
 //학번: 20179999
 //이름: 전유현
 
-//학번: 20170000
-//이름: 홍길동
+//학번: 20161085
+//이름: 전세희
