@@ -13,17 +13,22 @@ int main( void ){
 
  
 	switch(a){  
+	//덧셈
 	case '+': 
 		value = num1 + num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );
 		break;
 	case '-':
+	//뺼셈
 		value = num1 - num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );break;
 	case '*':  
+	//곱셈
 		value = num1 * num2;
 		printf( "%d %c %d = %d", num1, a, num2, value );break;
 	case '/':  
+	//나눗셈
+	//
 		printf( "%d/%d = %lf", num1, num2, (double)num1/num2 );break;
 	default:
 		printf( "계산불가능" );
@@ -41,7 +46,14 @@ int main( void ){
 
 //학번: 20181016
 //이름: 이유진
+
 //학번: 20161085
+
 //이름: f라이
 //와이즈센터
 //github
+
+//이름: 전세희
+
+//2번째 충돌 
+
