@@ -8,7 +8,9 @@ int main( void ){
 	char a = 0;
  
 	printf( "수식을 입력하시오 : " );
-	scanf( "%d %c %d" ,&num1,&a,&num2);
+
+	scanf( "%d %c %d",&num1,&a,&num2);
+
  
 	switch(a){  
 	case '+': 
@@ -25,6 +27,8 @@ int main( void ){
 		printf( "%d/%d = %lf", num1, num2, (double)num1/num2 );break;
 	default:
 		printf( "계산불가능" );
+		break;
+
 	}
  
 	return 0;
@@ -37,3 +41,5 @@ int main( void ){
 
 //학번: 20181016
 //이름: 이유진
+//학번: 20161085
+//이름: 전세희
